@@ -1,1 +1,33 @@
-body (
+body {
+    background-color: rgb(139, 5, 5);
+}
+
+#headerNav {
+    width: fit-content;
+    display: inline;
+    text-align: right;
+    word-spacing: 60px;
+    font-size: medium;
+}
+
+.list {
+    list-style-type: none;
+     display: inline-block;
+    background-color: ;
+    cursor: pointer;
+    border-style:double;
+    border-radius: 20px;
+    padding: 10px;
+    color: wheat;
+    position: relative;
+    /* margin-right: 40px; */
+} 
+
+#home {
+    width: fit-content;
+    display: inline;
+}
+.homeText {
+    text-align: center;
+    color: wheat;
+}
