@@ -1,40 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zahra's Portfolio</title>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-    crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css"/>
-    <script src="app.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zahra's Portfolio</title>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="app.js"></script>
+    </head>
 
-<body>
-    <div id="headerNav">
-        <ul>
-             <div class="list">
-                 <li>Home</li>
-            </div>
-             <div class="list">
-                <li>About</li>
-            </div>
-             <div class="list">
-                <li>Work</li>
-            </div>
-            <div class="list">
-                <li>Blog</li>
-            </div>
-        </ul>
-    </div>
-<div id="home">
-    <div class="homeText">
-        <h1>Hi, I'm Zahra</h1>
-          <p>i am so sad :)</p>
-    </div>
-</div>
+ <body>
+       <header>
+            <!-- <div class="logo">
+                <img src="PUT IMAGE FOR LOGO HERE" alt="">
+            </div> -->
+            <button class="navToggle" aria-label="directory">
+                <span class="hamburger"></span>
+            </button>
+            <h3>ZAHRA ABBAS</h3>
+            <nav class="nav">
+                <ul class="navList">
+                    <li class="navItem"><a href="#about" class="navLink">About</a></li>
+                    <li class="navItem"><a href="#experience" class="navLink">Experience</a></li>
+                    <li class="navItem"><a href="#projects" class="navLink">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="home" id="about">
+            <h1 class="homeTitle">Hi, I'm Zahra. Welcome to my page!</h1>
+            <p class ="homeSub">software dev</p>
+            <!-- <img src="MY PICTURE HERE"> -->
+        </section> 
+
+        <section class="myExperience" id="#experience">
+            <h2 class="expTitle">My Experience</h2>
+            <p class ="expSub">INSERT RESUME SHIT HERE</p>
+            <!-- go back to 19:00 on yt vid -->
+
+            <a href="#projects" class="btn">My Projects</a>
+            
+        </section> 
 
 
-</body>
+
+
+
+
+    </body>
 </html>
