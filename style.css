@@ -1,3 +1,93 @@
+/* JUST FOR FUN ADD THIS IN YOUR PROJECTS SECTION IN AN EMPTY DIV 
+
+
+   animation: mymove 20s infinite;
+}
+  
+  @keyframes mymove {
+    from {background-color: rgb(185, 160, 142)}
+    to {background-color: blue;}
+  } */
+
+
+
 body {
     background-color: rgb(243, 223, 223);
+    margin: 0;
+    font-family: 'VT323', monospace;
+    line-height: 1.6;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 500px;
+    width: 250px;
+    border-style: double;
+    border-color: wheat;
+}
+
+h1, 
+h2, 
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.25rem;
+    color: rgb(185, 160, 142);
+    font-family: optima, sans-serif;
+}
+h2 {
+    font-size: 2.25rem;
+    color: rgb(185, 160, 142);
+    font-family: optima, sans-serif;
+}
+h3 {
+    font-size: 1.25rem;
+    color: rgb(185, 160, 142);
+    font-family: optima, sans-serif;
+}
+
+p {
+    color: rgb(185, 160, 142);
+    font-family: optima, sans-serif;
+}
+
+.headName {
+    background-color: blue;
+}
+
+.nav {
+    background-color: gray;
+}
+
+.navItem {
+    background-color: green;
+    list-style: none;
+}
+
+.homeTitle {
+    font-weight: lighter;
+    background-color: gold;
+    margin-bottom: .25em;
+}
+
+.homeSub {
+    margin: 0;
+    font-size: 1.25 rem;
+    background-color: orange;
+}
+
+.expTitle,
+.projTitle {
+    background-color: white;
+}
+
+.expSub,
+.projSub {
+    background-color: aquamarine;
 }
