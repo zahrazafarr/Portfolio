@@ -10,11 +10,25 @@
 
 $(() => {
 
-$('div').appendTo('.projSub')
-$('.projSub').hide()
+$('body').hide(5)
+$('body').show().fadeIn(3000)
 
-$('#projTitle').on('click', => {
-    $('projSub').show()
-})
+
+$('#message').submit()
+
+// $('div').appendTo('.projSub')
+// // $('.projSub').hide()
+
+// $('#projTitle').on('click', () => {
+//     $('.projSub').hide()
+// })
     
 })
+
+// const closeButton = document.querySelector('#closeButton')
+
+// function closePopUp(){
+//   // Some logic here that closes the pop-up window
+// }
+
+// closeButton.addEventListener('click', closePopUp);
