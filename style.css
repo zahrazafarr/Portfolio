@@ -108,10 +108,12 @@ p {
     font-family: 'Dawning of a New Day', cursive;
     font-size: xx-large;
 }
+
 .navItem:hover {
     background-color: rgb(182, 126, 120);
     color:pink;
 }
+
 
 .navLink {
     text-decoration: none;
@@ -163,6 +165,43 @@ p {
     text-align: center;
 }
 
+
+/* #carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: -40px
+  }
+
+.slide-image {
+    width: 350px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin-right: -2.75em;
+  }
+
+#slide1 {
+    background-image: url(/finald.png)
+  }
+  
+  #slide2 {
+    background-image: url(/idlehands.png);
+  }
+  
+  #slide3 {
+    background-image: url(/Screen\ Shot\ 2022-11-04\ at\ 6.18.39\ PM.png);
+  }
+  
+  #slide4 {
+    background-image: url(/freddyvjason.png);
+  }
+   */
+
+
+
 header {
     padding: 0em 1em;
 }
@@ -170,6 +209,23 @@ header {
 footer {
     padding: 0em 2em;
 }
+
+/* .linked {
+    width: 32px;
+    height 32px;
+    display: block;
+    text-indent: -9999px;
+    background-image: url(/freddyvjason.png);
+    
+}
+
+.git {
+    
+}
+
+.twitter {
+    
+} */
 
 .social {
     list-style: none;

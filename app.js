@@ -1,9 +1,9 @@
 // let someone message me
 //carousel with photos ?
 // let highlighted word initiate a photo modal or fun fact modal 
+
 // find a way to open and close projects and experience section..... like wtf how did u forget.
 
-// need footer at bottom with icon logos
 
 // how do i delete my selfie on my git. would it interfere w final pushed html
 
@@ -18,6 +18,32 @@ $('body').hide(5)
 $('body').show().fadeIn(3000)
 
 
+/////////////////////////////////////////////////////////////////////////
+//        carousel problems 
+
+// const rotateSlides() => {
+// let $firstSlide = $('#carousel').find('#slide1');
+// let width = $firstSlide.width();
+
+// let $interval = window.setInterval(rotateSlides, 3000)
+      
+// $firstSlide.animate({marginLeft: -width}, 1000, () => {
+//     let $lastSlide = $('#carousel').find('#slide4')
+//     $lastSlide.after($firstSlide);
+//     $firstSlide.css({marginLeft: 0})
+//       })
+// }
+// rotateSlides()
+// $firstSlide.animate()
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+})
+
+
 //////////////////////////////////////////////////////////////////////////
 
 
@@ -29,21 +55,15 @@ $('body').show().fadeIn(3000)
             <input type="submit" class="button">
         </form> */
 
- const submitForm() => {
-    let $enter = $('.button');
-    $enter.submit();
-    alert("Your Message Sent");
-}
+//  const submitForm() => {
+//     let $enter = $('.button');
+//     $enter.submit();
+//     alert("Your Message Sent");
+// }
 
-$enter.on('click', submitForm);
+// $enter.on('click', submitForm);
     
 //////////////////////////////////////////////////////////////////////////
-
-
-
-
-
-})
 
 
 
