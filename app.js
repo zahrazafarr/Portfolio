@@ -13,9 +13,6 @@ $(() => {
 $('body').hide(5)
 $('body').show().fadeIn(3000)
 
-
-$('#message').submit()
-
 // $('div').appendTo('.projSub')
 // // $('.projSub').hide()
 
