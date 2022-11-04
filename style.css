@@ -122,6 +122,8 @@ p {
     flex-grow: inherit;
     flex-wrap: wrap;
     background-color: beige;
+    border-style:solid;
+    border-color: wheat;
 } 
 
 .homeTitle {
@@ -147,6 +149,9 @@ p {
     background-color: white;
     text-align: center;
     cursor: pointer;
+    border-radius: 40px;
+    border-style: solid;
+    border-color: beige;
 }
 
 .expSub,
