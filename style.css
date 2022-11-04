@@ -48,6 +48,9 @@ img {
 section {
     padding: 5em 2em;
 }
+.submit {
+    padding: 0em 0em;
+}
 
 .message {
     padding-left: 970px;

@@ -1,26 +1,49 @@
 // let someone message me
-// carousel with photos ?
+//carousel with photos ?
 // let highlighted word initiate a photo modal or fun fact modal 
 
 // need footer at bottom with icon logos
 
-// delayed HOME PAGE upon screen loading would b cool
-//make the home page greet the visitor, into background page
 
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// why doesnt beginning work when other stuff is entered in jquery
 
 $(() => {
 
 $('body').hide(5)
 $('body').show().fadeIn(3000)
 
-// $('div').appendTo('.projSub')
-// // $('.projSub').hide()
 
-// $('#projTitle').on('click', () => {
-//     $('.projSub').hide()
-// })
+//////////////////////////////////////////////////////////////////////////
+
+
+// trying to get "message sent" log when submit clicked
+
+{/* <form class="message" action="" method="post">
+            Let's get in touch!
+            <input type="text" placeholder="Enter your email">
+            <input type="submit" class="button">
+        </form> */}
+ const submitForm() => {
+    let $enter = $('.button');
+    $enter.submit();
+    alert("Your Message Sent");
+}
+
+$enter.on('click', submitForm);
     
+//////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 })
+
+
 
 // const closeButton = document.querySelector('#closeButton')
 
