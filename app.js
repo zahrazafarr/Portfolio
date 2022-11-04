@@ -10,9 +10,11 @@
 
 $(() => {
 
+$('div').appendTo('.projSub')
+$('.projSub').hide()
 
-
-
-
+$('#projTitle').on('click', => {
+    $('projSub').show()
+})
     
 })

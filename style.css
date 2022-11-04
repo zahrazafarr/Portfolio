@@ -8,7 +8,27 @@
     from {background-color: rgb(185, 160, 142)}
     to {background-color: blue;}
   } */
+/* ---------------------------------------------------------- */
 
+/* /WHAT DOES THIS EVEN DO like what was i doing */
+/* @media (min-width: 600px) {
+    .home {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas:
+        "img title"
+        "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+    .myImg {
+        grid-area: img;
+        min-width: 250px;
+    }
+} */
+
+/* ---------------------------------------------------------- */
 
 
 body {
@@ -16,23 +36,32 @@ body {
     margin: 0;
     font-family: 'VT323', monospace;
     line-height: 1.6;
-    /* width: 100vw;
-    height: 100vh; */
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
+
 
 img {
     display: block;
     max-width: 100%;
     border-radius: 500px;
     width: 250px;
-    border-style: double;
-    border-color: wheat;
+    border-style: ridge;
+    border-color: burlywood;
+    margin-left: 40px;
+    margin-bottom: -100px;
+    margin-top: -100px;
+}
+
+section {
+    padding: 5em 2em;
 }
 
 h1, 
 h2, 
 h3 {
-    line-height: 1.1;
+    line-height: 1;
     margin: 0;
 }
 
@@ -41,11 +70,13 @@ h1 {
     color: rgb(185, 160, 142);
     font-family: optima, sans-serif;
 }
+
 h2 {
     font-size: 2.25rem;
     color: rgb(185, 160, 142);
     font-family: optima, sans-serif;
 }
+
 h3 {
     font-size: 1.25rem;
     color: rgb(185, 160, 142);
@@ -58,36 +89,83 @@ p {
 }
 
 .headName {
-    background-color: blue;
+    background-color: pink;
 }
 
 .nav {
-    background-color: gray;
+    background-color: pink;
 }
 
 .navItem {
-    background-color: green;
+    background-color: ;
     list-style: none;
+    display: inline;
+    cursor: pointer;
 }
+.navLink {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.home {
+    display: flex;
+    width: fit-content;
+    flex-grow: inherit;
+    flex-wrap: wrap;
+} 
 
 .homeTitle {
     font-weight: lighter;
-    background-color: gold;
     margin-bottom: .25em;
+    margin-left: 500px;
+    text-align: center;
 }
 
 .homeSub {
     margin: 0;
-    font-size: 1.25 rem;
-    background-color: orange;
+    font-size: x-large;
+    width: fit-content;
+    text-align: center;
+    margin-left: 450px;
 }
 
 .expTitle,
 .projTitle {
     background-color: white;
+    text-align: center;
+    cursor: pointer;
 }
 
 .expSub,
 .projSub {
-    background-color: aquamarine;
+    background-color: black;
+    text-align: center;
 }
+
+header {
+    padding: 0em 1em;
+}
+
+footer {
+    padding: 0em 2em;
+}
+
+.social {
+    list-style: none;
+}
+
+div {
+    display: inline-block;
+    padding: 2.5px;
+    margin-left: .5px;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: rgb(43, 255, 0);}
+    to {background-color: rgb(84, 215, 224);}
+ } 
