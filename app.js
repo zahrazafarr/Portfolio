@@ -2,12 +2,6 @@
 //carousel with photos ?
 // let highlighted word initiate a photo modal or fun fact modal 
 
-// find a way to open and close projects and experience section..... like wtf how did u forget.
-
-
-// how do i delete my selfie on my git. would it interfere w final pushed html
-
-
 
 //////////////////////////////////////////////////////////////////////////
 // why doesnt this beginning work when other stuff is entered in jquery
@@ -18,25 +12,10 @@ $('body').hide(5)
 $('body').show().fadeIn(3000)
 
 
-/////////////////////////////////////////////////////////////////////////
-//        carousel problems 
+const $submit = $('.button');
 
-// const rotateSlides() => {
-// let $firstSlide = $('#carousel').find('#slide1');
-// let width = $firstSlide.width();
-
-// let $interval = window.setInterval(rotateSlides, 3000)
-      
-// $firstSlide.animate({marginLeft: -width}, 1000, () => {
-//     let $lastSlide = $('#carousel').find('#slide4')
-//     $lastSlide.after($firstSlide);
-//     $firstSlide.css({marginLeft: 0})
-//       })
-// }
-// rotateSlides()
-// $firstSlide.animate()
-
-//////////////////////////////////////////////////////////////////////////
+$submit.on('click', () => {
+})
 
 
 

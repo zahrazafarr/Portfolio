@@ -22,6 +22,9 @@
 /* ---------------------------------------------------------- */
 
 
+
+
+
 body {
     background-color: rgb(243, 223, 223);
     margin: 0;
@@ -50,6 +53,19 @@ section {
 }
 .submit {
     padding: 0em 0em;
+    margin-top: -55px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.button {
+    border-style: none;
+    border-radius: 5px;
+    background-color: beige;
+    color: gray;
+}
+.button:hover {
+    background-color: rgb(199, 170, 170);
+    color: white
 }
 
 .message {
@@ -94,7 +110,7 @@ p {
 }
 
 .nav {
-    background-color: pink;
+    /* background-color: pink; */
     text-align: center;
     margin-left: 3em;
     margin-right: 3em;
@@ -165,8 +181,32 @@ p {
     text-align: center;
 }
 
+header {
+    padding: 0em 1em;
+}
 
-/* #carousel {
+footer {
+    background-color: lightblue;
+}
+
+#mySocials {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    font-size: x-large;
+}
+
+.fa-brands {
+    padding: 10px;
+    padding-left: 18px;
+    color: white;
+}
+
+.fa-brands:hover {
+    color: rgb(199, 170, 170);
+}
+
+ #carousel {
     overflow: hidden;
     white-space: nowrap;
     width: 100vw;
@@ -198,54 +238,5 @@ p {
   #slide4 {
     background-image: url(/freddyvjason.png);
   }
-   */
 
 
-
-header {
-    padding: 0em 1em;
-}
-
-footer {
-    padding: 0em 2em;
-}
-
-/* .linked {
-    width: 32px;
-    height 32px;
-    display: block;
-    text-indent: -9999px;
-    background-image: url(/freddyvjason.png);
-    
-}
-
-.git {
-    
-}
-
-.twitter {
-    
-} */
-
-.social {
-    list-style: none;
-}
-
-
-
-
-/* ------------------------randomsh!t4noreason----------- */
-.what {
-    display: inline-block;
-    padding: 2.5px;
-    margin-left: .5px;
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
-    animation: mymove 4s infinite;
-}
-
-@keyframes mymove {
-    from {background-color: rgb(255, 255, 255);}
-    to {background-color: rgb(0, 0, 0);}
- } 
