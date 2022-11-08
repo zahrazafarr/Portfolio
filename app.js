@@ -11,17 +11,57 @@ $(() => {
 $('body').hide(5)
 $('body').show().fadeIn(3000)
 
+$('.expSub').hide()
+$('.expList').hide()
+$('.projSub').hide()
+$('#slide-image').hide()
 
-// const $submit = $('.button');
-
-// $submit.on('click', () => {
-
-// })
 
 $('.expTitle').on('click', () => {
     $('.expSub').toggle();
     $('.expList').toggle();
 })
+
+$('.projTitle').on('click', () => {
+    $('.projSub').toggle();
+    $('#slide-image').toggle();
+})
+
+
+
+let currentImgIndex = 0;
+
+let numOfImages = $('.slide-image').children().length - 1
+
+$('.next').on('click', () => {
+    $('.slide-image').children().eq(currentImgIndex).css('display', 'none')
+    if(currentImgIndex < numOfImages) {
+        currentImgIndex ++
+       } else {
+        currentImgIndex = 0
+       }
+    $('.slide-image').children().eq(currentImgIndex).css('display','block')
+   })
+  
+
+$('.previous').on('click', () => {
+
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
+
+    if(currentImgIndex > 0) {
+        currentImgIndex --
+      } else {
+        currentImgIndex = numOfImages
+      }
+      
+
+    $('.slide-image').children().eq(currentImgIndex).css('display', 'block')
+
+})
+
+
+
+
 
 
 

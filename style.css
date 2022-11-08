@@ -251,37 +251,8 @@ footer {
     color: rgb(199, 170, 170);
 }
 
- #carousel {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100vw;
-    height: 100vh;
-    padding-bottom: -40px
-  }
-
-.slide-image {
-    width: 350px;
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    margin-right: -2.75em;
-  }
-
-#slide1 {
-    background-image: url(/finald.png)
-  }
-  
-  #slide2 {
-    background-image: url(/idlehands.png);
-  }
-  
-  #slide3 {
-    background-image: url(/Screen\ Shot\ 2022-11-04\ at\ 6.18.39\ PM.png);
-  }
-  
-  #slide4 {
-    background-image: url(/freddyvjason.png);
-  }
-
+.container {
+    display: flex;
+    margin-left: 50px;
+}
 
