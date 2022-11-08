@@ -12,9 +12,15 @@ $('body').hide(5)
 $('body').show().fadeIn(3000)
 
 
-const $submit = $('.button');
+// const $submit = $('.button');
 
-$submit.on('click', () => {
+// $submit.on('click', () => {
+
+// })
+
+$('.expTitle').on('click', () => {
+    $('.expSub').toggle();
+    $('.expList').toggle();
 })
 
 
